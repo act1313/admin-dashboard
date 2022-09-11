@@ -76,9 +76,73 @@ time, mark, audio, video {
     padding-top: 2vh;
     align-items: center;
     justify-content: space-between;
-    padding: 0 5vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.search {
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(201, 209, 216);
+    width: 30vw;
+    height: 3vh;
+    margin-left: 1vw;
 }
 
 .mac {
     border-radius: 35px;
+    margin: 0 2vw;
+}
+
+.leftNav {
+    display: flex;
+    align-items: center;
+}
+
+.rightNav {
+    display: flex;
+    align-items: center;
+    font-size: .55rem;
+    font-weight: bold;
+}
+
+.underNav {
+    padding-right: 5vw;
+    padding-left: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftSection {
+    align-items: center;
+    display: flex;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.rightSection {
+    align-items: center;
+    display: flex;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;  
+    height: 4vh;
+    width: 8vw;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(95, 151, 255);
+}
+
+.mid {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.mac2 {
+    border-radius: 35px;
+    margin-right: .75vw;
 }
