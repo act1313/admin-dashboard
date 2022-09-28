@@ -151,7 +151,6 @@ time, mark, audio, video {
 
 .gridsection {
     display: grid;  
-    gap: 50px;
     grid-template-columns: auto auto;
 }
 
@@ -163,12 +162,14 @@ time, mark, audio, video {
 
 .section {
     border: 1px solid black;
-    background-color: rgb(95, 151, 255);
+    border-radius: 15px;
+    background-color: white;
     width: 17.5vw;
     height: 17.5vh;
     position: relative;
     padding-left: 1vw;
     padding-top: 3vh;
+    margin-bottom: 5vh;
 }
 
 .iconsCorner {
@@ -190,4 +191,29 @@ time, mark, audio, video {
 
 .toppart {
     flex: 1 1 0%;
+}
+
+.bottomRight {
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topbottomright {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottombottomright {
+    display: flex;
+    flex-direction: column;
+}
+
+.anouncment {
+    width: 17.5vw;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
 }
